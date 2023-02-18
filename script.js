@@ -26,7 +26,7 @@ document.querySelector("form").addEventListener("submit", (e) => {
     messageFunc("Вы угадали число!🥳 ");
     document.body.style.background = "green";
     document.querySelector(".number").textContent = secretNumber;
-    document.querySelector("h1").textContent = "Отлично!";
+    document.querySelector("h1").textContent = "Победа!";
     gameOver();
 
     if (highScore < score) {
