@@ -44,7 +44,7 @@ document.querySelector("form").addEventListener("submit", (e) => {
       document.querySelector(".score").textContent = score;
     } else {
       document.querySelector("h1").textContent = "Поражение!";
-      messageFunc("Siz yutqazdingiz..!");
+      messageFunc("Вы проиграли..!");
       document.querySelector(".score").textContent = 0;
       gameOver();
       document.body.style.background = "red"
