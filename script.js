@@ -64,4 +64,5 @@ again.addEventListener("click", ()=>{
   document.querySelector(".number").textContent = "?";
   secretNumber = Math.trunc(Math.random() * 20 + 1);
   console.log(secretNumber);
+  document.querySelector("h1").textContent = "Угадай мое число!";
 })
