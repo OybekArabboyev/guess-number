@@ -43,6 +43,7 @@ document.querySelector("form").addEventListener("submit", (e) => {
       score--;
       document.querySelector(".score").textContent = score;
     } else {
+      document.querySelector("h1").textContent = "Поражение!";
       messageFunc("Siz yutqazdingiz..!");
       document.querySelector(".score").textContent = 0;
       gameOver();
